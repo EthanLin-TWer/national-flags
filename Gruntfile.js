@@ -2,7 +2,7 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
       less: {
-          development: {
+          build: {
               files: {
                   'dist/css/national-flags.css': 'less/**/*.less'
               },
