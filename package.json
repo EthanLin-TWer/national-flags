@@ -1,0 +1,21 @@
+{
+  "name": "national-flags",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linesh-simplicity/national-flags.git"
+  },
+  "author": "Congyu Linesh",
+  "license": "ISC",
+  "homepage": "https://github.com/linesh-simplicity/national-flags#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-less": "^1.3.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
