@@ -2,11 +2,13 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
       less: {
-          files: {
-              'dist/css/national-flags.css': 'less/french/french.less'
-          },
-          options: {
-              compress: true
+          development: {
+              files: {
+                  'dist/css/national-flags.css': 'less/**/*.less'
+              },
+              options: {
+                  compress: true
+              }
           }
       },
       watch: {
@@ -18,5 +20,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
-  grunt.registerTask('default', ['less']);
+  grunt.registerTask('default', ['less', 'watch']);
 };

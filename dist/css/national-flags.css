@@ -1,18 +1,1 @@
-.french-national-flag {
-  width: 78px;
-  height: 52px;
-}
-.french-national-flag:before {
-  content: '';
-  float: left;
-  width: 33%;
-  height: 100%;
-  background: #0055a4;
-}
-.french-national-flag:after {
-  content: '';
-  float: right;
-  width: 33%;
-  height: 100%;
-  background: #ef4135;
-}
+.french-national-flag{width:78px;height:52px}.french-national-flag:before{content:'';float:left;width:33%;height:100%;background:#0055a4}.french-national-flag:after{content:'';float:right;width:33%;height:100%;background:#ef4135}
